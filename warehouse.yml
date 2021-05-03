@@ -1,0 +1,6 @@
+name: bq-schema-drift
+connection:
+    type: bigquery
+    # YOUR BIGQUERY SERVICE ACCOUNT INFO JSON FILE
+    account_info_json:  env_var(account_info_json)
+    dataset: shipping
